@@ -27,14 +27,11 @@ export default function ConvertiFAQPage() {
             <span className="font-bold text-xl">Convertiko</span>
           </Link>
           <div className="hidden md:flex items-center space-x-6">
-            <Link href="/#products" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Products
-            </Link>
-            <Link href="https://docs.convertikolabs.com" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Documentation
-            </Link>
             <Link href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
               Pricing
+            </Link>
+            <Link href="https://docs.convertikolabs.com" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+              Docs
             </Link>
           </div>
           <Button asChild>
