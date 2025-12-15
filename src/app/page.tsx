@@ -544,18 +544,18 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-sm">
                 <li>
+                  <Link href="/support" className="text-muted-foreground hover:text-foreground transition-colors">
+                    Help Center
+                  </Link>
+                </li>
+                <li>
                   <Link href="https://docs.convertikolabs.com/guide/getting-started" className="text-muted-foreground hover:text-foreground transition-colors">
                     Getting Started
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://docs.convertikolabs.com/guide/troubleshooting" className="text-muted-foreground hover:text-foreground transition-colors">
-                    Troubleshooting
-                  </Link>
-                </li>
-                <li>
                   <Link href="mailto:support@convertikolabs.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                    Contact Support
+                    Contact Us
                   </Link>
                 </li>
               </ul>
@@ -566,6 +566,9 @@ export default function Home() {
             <div className="flex gap-6">
               <Link href="https://docs.convertikolabs.com/reference/privacy" className="hover:text-foreground transition-colors">
                 Privacy Policy
+              </Link>
+              <Link href="https://docs.convertikolabs.com/reference/terms" className="hover:text-foreground transition-colors">
+                Terms of Service
               </Link>
             </div>
           </div>
