@@ -366,7 +366,7 @@ export default function Home() {
                 price: "$29",
                 description: "For growing stores",
                 features: [
-                  "100 generations/month",
+                  "125 generations/month",
                   "250 active slots",
                   "Full analytics & attribution",
                   "Priority support",
@@ -377,7 +377,7 @@ export default function Home() {
               },
               {
                 name: "Scale",
-                price: "$79",
+                price: "$49",
                 description: "For large catalogs",
                 features: [
                   "500 generations/month",
